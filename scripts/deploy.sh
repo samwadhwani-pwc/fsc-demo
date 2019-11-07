@@ -33,4 +33,5 @@ sfdx force:org:create adminEmail="sam.wadhwani@pwc.com " \
 echo "--- Deploying the source to the scratch org. Please wait..."
 sfdx force:source:push
 
+sfdx force:user:password:generate
 sfdx force:org:open -u fsc-demo
